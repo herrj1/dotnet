@@ -5,9 +5,8 @@ using TodoApi.Models;
 
 
 namespace TodoApi.Controllers
-{
-    [Route("api/[controller]")]
-	[ApiController]
+{[Route("api/[controller]")]
+    [ApiController]
     public class TodoController : ControllerBase
     {
 		private readonly TodoContext _context;
