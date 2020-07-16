@@ -9,10 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
 namespace app1
-{
-    public class Program
-    {
-        public static void Main(string[] args)
+{public class Program
+    {public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
         }        public static IWebHost BuildWebHost(string[] args) =>
